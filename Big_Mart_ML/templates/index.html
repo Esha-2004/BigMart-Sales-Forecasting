@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <form action="/calc" method="post">
+        <label for="a">Item_Weight:</label><br>
+        <input type="text" name="a" id="a"><br><br>
+        <label for="b">Item_Fat_Content:</label><br>
+        <input type="text" name="b" id="b"><br><br>
+        <label for="c">Item_Visibility :</label><br>
+        <input type="text" name="c" id="c"><br><br>
+        <label for="d">Item_Type:</label><br>
+        <input type="text" name="d" id="d"><br><br>
+        <label for="e">Item_MRP :</label><br>
+        <input type="text" name="e" id="e"><br><br>
+        <label for="f"> Outlet_Identifier:</label><br>
+        <input type="text" name="f" id="d"><br><br>
+        <label for="g">Outlet_Establishment_Year:</label><br>
+        <input type="text" name="g" id="g"><br><br>
+        <label for="h"> Outlet_Size:</label><br>
+        <input type="text" name="h" id="h"><br><br>
+        <label for="i">Outlet_Location_Typ:</label><br>
+        <input type="text" name="i" id="i"><br><br>
+        <label for="j">Enter Outlet_Type :</label><br>
+        <input type="text" name="j" id="j"><br><br>
+        <button type="submit">calculate</button>
+    </form>
+    <h1>Item_Sale:{{sales}}</h1>
+</body>
